@@ -1,0 +1,147 @@
+.headtitle{
+    background-color: rgb(113,9,9);
+    height:65px;
+    padding: 10px;
+}
+#h01{
+    color:yellow;
+    font-family: monospace;
+    text-align: center;
+    font-weight: bolder;
+
+}
+.navbar1{
+    margin: 20px;
+    background-color: chocolate;
+    height: 120px;
+    border-radius: 15px;
+    
+}
+
+.btn-primary{
+        width: 300px;
+        height: 60px;    
+        font-size: 20px; /* Font size wenas karanna */
+        padding: 15px 30px; /* Button eka loku wenna */
+    }
+.btn-secondary{
+        width: 300px;
+        height: 60px;    
+        font-size: 20px; /* Font size wenas karanna */
+        padding: 15px 30px; /* Button eka loku wenna */
+    }
+.btn-light{
+        width: 300px;
+        height: 60px;    
+        font-size: 20px; /* Font size wenas karanna */
+        padding: 15px 30px; /* Button eka loku wenna */
+    }
+.div1{
+    background-color: rgb(113,9,9);
+    height:65px;
+    padding: 10px;
+}
+body{
+    background-color:yellow;
+}
+#h02{
+   
+   
+   
+    font-weight: 800;
+    font-family: fantasy;
+    color:darkred;
+    font-style: unset;
+    margin-left: 250px;
+    margin-bottom: 70px;
+  margin-top: 40px;
+  
+}
+.div2{
+    margin-top: 100px;
+    margin-left:300px;
+    margin-right: 300px;
+    background-color:brown;
+    color: white;
+    font-size: 20px;
+    
+   
+}
+#txt1{
+    width: 250px;
+    height: 35px;
+    padding-left: 50px;
+    margin-left: 40px;
+}
+#txt2{
+    width: 250px;
+    height: 35px;
+    padding-left: 50px;
+    margin-left: 40px;
+}
+#txt3{
+    width: 250px;
+    height: 35px;
+    padding-left: 50px;
+    margin-left: 40px;
+}
+#txt4{
+    width: 250px;
+    height: 35px;
+    padding-left: 50px;
+    margin-left: 40px;
+}
+#txt5{
+    width: 250px;
+    height: 35px;
+    padding-left: 50px;
+    margin-left: 40px;
+}
+#btnwarning{
+    margin-top: 20px;
+    background-color: yellow;
+    border-radius: 2%;
+    width: 350px;
+    height: 50px;
+}
+
+
+
+.btn-secondary{
+    margin-top: 20px;
+    background-color: red;
+    border-radius: 2%;
+    width: 350px;
+    height: 50px;
+}
+.btn-light{
+    margin-top: 20px;
+    background-color: red;
+    border-radius: 2%;
+    width:350px;
+    height: 50px;
+}
+.listDiv{
+    margin-top: 30px;
+    background-color:rgb(113,9,9) ;
+    margin-left: 300px;
+    margin-right: 310px;
+    color: white;
+    padding: 20px;
+}
+#vid1{
+    width: 800px;
+    border-radius: 8%;
+    margin-left:220px ;
+}
+#img1{
+    
+    margin-left: 250px;
+   padding-top: 130px;
+   margin-bottom: 100px;
+    width: 60%;
+}
+.card-group{
+    margin: 20px;
+    width: 95%;
+}
