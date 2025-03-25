@@ -165,11 +165,6 @@ function addOrder() {
       footer: '<a href="#">Why do I have this issue?</a>'
     });
   }
-
-
-
-
-
 }
 
 function selectOrder() {
@@ -201,6 +196,4 @@ function cancel() {
   document.getElementById("txt3").value = "";
   document.getElementById("txt4").value = "";
   document.getElementById("txt5").value = "";
-
-
 }
