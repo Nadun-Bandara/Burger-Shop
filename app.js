@@ -28,9 +28,9 @@ function addOrder() {
   }
 
   if (typeof name == "string" && qty > 0 && typeof address == "string" && phone.toString().length == 9) {
-    if (item == "BUR001") {
-      price = 670 * qty;
-      discount = price * 0.02;
+    if (item == "B1001") {
+      price = 750 * qty;
+      discount = price * 0.00;
       newprice = price - discount;
       Swal.fire({
         title: "Item Placed Succesfully!",
@@ -39,9 +39,9 @@ function addOrder() {
       });
       array.push(order);
     }
-    if (item == "BUR002") {
-      price = 870 * qty;
-      discount = price * 0.03;
+    if (item == "B1002") {
+      price = 1500 * qty;
+      discount = price * 0.15;
       newprice = price - discount;
       Swal.fire({
         title: "Item Placed Succesfully!",
@@ -50,8 +50,71 @@ function addOrder() {
       });
       array.push(order);
     }
-    if (item == "BUR003") {
-      price = 1070 * qty;
+    if (item == "B1003") {
+      price = 1600 * qty;
+      discount = price * 0.00;
+      newprice = price - discount;
+      Swal.fire({
+        title: "Item Placed Succesfully!",
+        icon: "success",
+        draggable: true
+      });
+      array.push(order);
+    }
+    if (item == "B1004") {
+      price = 1400 * qty;
+      discount = price * 0.00;
+      newprice = price - discount;
+      Swal.fire({
+        title: "Item Placed Succesfully!",
+        icon: "success",
+        draggable: true
+      });
+      array.push(order);
+    } if (item == "B1005") {
+      price = 800 * qty;
+      discount = price * 0.20;
+      newprice = price - discount;
+      Swal.fire({
+        title: "Item Placed Succesfully!",
+        icon: "success",
+        draggable: true
+      });
+      array.push(order);
+    } if (item == "B1006") {
+      price = 1000 * qty;
+      discount = price * 0.00;
+      newprice = price - discount;
+      Swal.fire({
+        title: "Item Placed Succesfully!",
+        icon: "success",
+        draggable: true
+      });
+      array.push(order);
+    } if (item == "B1007") {
+      price = 600 * qty;
+      discount = price * 0.00;
+      newprice = price - discount;
+      Swal.fire({
+        title: "Item Placed Succesfully!",
+        icon: "success",
+        draggable: true
+      });
+      array.push(order);
+    }
+    if (item == "B1008") {
+      price = 650 * qty;
+      discount = price * 0.15;
+      newprice = price - discount;
+      Swal.fire({
+        title: "Item Placed Succesfully!",
+        icon: "success",
+        draggable: true
+      });
+      array.push(order);
+    }
+    if (item == "B1009") {
+      price = 800 * qty;
       discount = price * 0.05;
       newprice = price - discount;
       Swal.fire({
@@ -61,72 +124,9 @@ function addOrder() {
       });
       array.push(order);
     }
-    if (item == "BUR004") {
-      price = 670 * qty;
-      discount = price * 0.02;
-      newprice = price - discount;
-      Swal.fire({
-        title: "Item Placed Succesfully!",
-        icon: "success",
-        draggable: true
-      });
-      array.push(order);
-    } if (item == "BUR005") {
-      price = 970 * qty;
-      discount = price * 0.04;
-      newprice = price - discount;
-      Swal.fire({
-        title: "Item Placed Succesfully!",
-        icon: "success",
-        draggable: true
-      });
-      array.push(order);
-    } if (item == "BUR006") {
-      price = 570 * qty;
-      discount = price * 0.02;
-      newprice = price - discount;
-      Swal.fire({
-        title: "Item Placed Succesfully!",
-        icon: "success",
-        draggable: true
-      });
-      array.push(order);
-    } if (item == "BUR007") {
-      price = 999 * qty;
-      discount = price * 0.04;
-      newprice = price - discount;
-      Swal.fire({
-        title: "Item Placed Succesfully!",
-        icon: "success",
-        draggable: true
-      });
-      array.push(order);
-    }
-    if (item == "BUR008") {
-      price = 1270 * qty;
-      discount = price * 0.04;
-      newprice = price - discount;
-      Swal.fire({
-        title: "Item Placed Succesfully!",
-        icon: "success",
-        draggable: true
-      });
-      array.push(order);
-    }
-    if (item == "BUR009") {
-      price = 1570 * qty;
-      discount = price * 0.05;
-      newprice = price - discount;
-      Swal.fire({
-        title: "Item Placed Succesfully!",
-        icon: "success",
-        draggable: true
-      });
-      array.push(order);
-    }
-    if (item == "BUR010") {
-      price = 470 * qty;
-      discount = price * 0.02;
+    if (item == "B1010") {
+      price = 1800 * qty;
+      discount = price * 0.00;
       newprice = price - discount;
       Swal.fire({
         title: "Item Placed Succesfully!",
@@ -136,6 +136,445 @@ function addOrder() {
 
       array.push(order);
     }
+    if (item == "B1012") {
+      price = 1250 * qty;
+      discount = price * 0.20;
+      newprice = price - discount;
+      Swal.fire({
+        title: "Item Placed Succesfully!",
+        icon: "success",
+        draggable: true
+      });
+
+      array.push(order);
+    }
+    if (item == "B1013") {
+      price = 1200 * qty;
+      discount = price * 0.00;
+      newprice = price - discount;
+      Swal.fire({
+        title: "Item Placed Succesfully!",
+        icon: "success",
+        draggable: true
+      });
+
+      array.push(order);
+    }
+    if (item == "B1014") {
+      price = 1600 * qty;
+      discount = price * 0.10;
+      newprice = price - discount;
+      Swal.fire({
+        title: "Item Placed Succesfully!",
+        icon: "success",
+        draggable: true
+      });
+
+      array.push(order);
+    }
+    if (item == "B1015") {
+      price = 900 * qty;
+      discount = price * 0.00;
+      newprice = price - discount;
+      Swal.fire({
+        title: "Item Placed Succesfully!",
+        icon: "success",
+        draggable: true
+      });
+
+      array.push(order);
+    }
+    if (item == "B1016") {
+      price = 2000 * qty;
+      discount = price * 0.00;
+      newprice = price - discount;
+      Swal.fire({
+        title: "Item Placed Succesfully!",
+        icon: "success",
+        draggable: true
+      });
+
+      array.push(order);
+    }
+    if (item == "B1017") {
+      price = 1500 * qty;
+      discount = price * 0.00;
+      newprice = price - discount;
+      Swal.fire({
+        title: "Item Placed Succesfully!",
+        icon: "success",
+        draggable: true
+      });
+
+      array.push(order);
+    }
+    if (item == "B1018") {
+      price = 1800 * qty;
+      discount = price * 0.03;
+      newprice = price - discount;
+      Swal.fire({
+        title: "Item Placed Succesfully!",
+        icon: "success",
+        draggable: true
+      });
+
+      array.push(order);
+    }
+    if (item == "B1019") {
+      price = 1400 * qty;
+      discount = price * 0.00;
+      newprice = price - discount;
+      Swal.fire({
+        title: "Item Placed Succesfully!",
+        icon: "success",
+        draggable: true
+      });
+
+      array.push(order);
+    }
+
+    if (item == "B1020") {
+      price = 2300 * qty;
+      discount = price * 0.00;
+      newprice = price - discount;
+      Swal.fire({
+        title: "Item Placed Succesfully!",
+        icon: "success",
+        draggable: true
+      });
+
+      array.push(order);
+    }
+    if (item == "B1021") {
+      price = 2200 * qty;
+      discount = price * 0.00;
+      newprice = price - discount;
+      Swal.fire({
+        title: "Item Placed Succesfully!",
+        icon: "success",
+        draggable: true
+      });
+
+      array.push(order);
+    }
+    if (item == "B1022") {
+      price = 1900 * qty;
+      discount = price * 0.16;
+      newprice = price - discount;
+      Swal.fire({
+        title: "Item Placed Succesfully!",
+        icon: "success",
+        draggable: true
+      });
+
+      array.push(order);
+    }
+    if (item == "B1023") {
+      price = 2800 * qty;
+      discount = price * 0.00;
+      newprice = price - discount;
+      Swal.fire({
+        title: "Item Placed Succesfully!",
+        icon: "success",
+        draggable: true
+      });
+
+      array.push(order);
+    }
+    if (item == "B1024") {
+      price = 3000 * qty;
+      discount = price * 0.00;
+      newprice = price - discount;
+      Swal.fire({
+        title: "Item Placed Succesfully!",
+        icon: "success",
+        draggable: true
+      });
+
+      array.push(order);
+    }
+    if (item == "B1025") {
+      price = 1200 * qty;
+      discount = price * 0.00;
+      newprice = price - discount;
+      Swal.fire({
+        title: "Item Placed Succesfully!",
+        icon: "success",
+        draggable: true
+      });
+
+      array.push(order);
+    }
+    if (item == "B1026") {
+      price = 600 * qty;
+      discount = price * 0.00;
+      newprice = price - discount;
+      Swal.fire({
+        title: "Item Placed Succesfully!",
+        icon: "success",
+        draggable: true
+      });
+
+      array.push(order);
+    }
+    if (item == "B1027") {
+      price = 800 * qty;
+      discount = price * 0.00;
+      newprice = price - discount;
+      Swal.fire({
+        title: "Item Placed Succesfully!",
+        icon: "success",
+        draggable: true
+      });
+
+      array.push(order);
+    }
+    if (item == "B1028") {
+      price = 650 * qty;
+      discount = price * 0.00;
+      newprice = price - discount;
+      Swal.fire({
+        title: "Item Placed Succesfully!",
+        icon: "success",
+        draggable: true
+      });
+
+      array.push(order);
+    }
+    if (item == "B1029") {
+      price = 450 * qty;
+      discount = price * 0.00;
+      newprice = price - discount;
+      Swal.fire({
+        title: "Item Placed Succesfully!",
+        icon: "success",
+        draggable: true
+      });
+
+      array.push(order);
+    }
+    if (item == "B1030") {
+      price = 600 * qty;
+      discount = price * 0.00;
+      newprice = price - discount;
+      Swal.fire({
+        title: "Item Placed Succesfully!",
+        icon: "success",
+        draggable: true
+      });
+
+      array.push(order);
+    }
+    if (item == "B1031") {
+      price = 1600 * qty;
+      discount = price * 0.15;
+      newprice = price - discount;
+      Swal.fire({
+        title: "Item Placed Succesfully!",
+        icon: "success",
+        draggable: true
+      });
+
+      array.push(order);
+    }
+    if (item == "B1032") {
+      price = 1700 * qty;
+      discount = price * 0.00;
+      newprice = price - discount;
+      Swal.fire({
+        title: "Item Placed Succesfully!",
+        icon: "success",
+        draggable: true
+      });
+
+      array.push(order);
+    }
+    if (item == "B1033") {
+      price = 2900 * qty;
+      discount = price * 0.10;
+      newprice = price - discount;
+      Swal.fire({
+        title: "Item Placed Succesfully!",
+        icon: "success",
+        draggable: true
+      });
+
+      array.push(order);
+    }
+    if (item == "B1034") {
+      price = 2000 * qty;
+      discount = price * 0.00;
+      newprice = price - discount;
+      Swal.fire({
+        title: "Item Placed Succesfully!",
+        icon: "success",
+        draggable: true
+      });
+
+      array.push(order);
+    }
+    if (item == "B1035") {
+      price = 1950 * qty;
+      discount = price * 0.00;
+      newprice = price - discount;
+      Swal.fire({
+        title: "Item Placed Succesfully!",
+        icon: "success",
+        draggable: true
+      });
+
+      array.push(order);
+    }
+    if (item == "B1036") {
+      price = 2400 * qty;
+      discount = price * 0.01;
+      newprice = price - discount;
+      Swal.fire({
+        title: "Item Placed Succesfully!",
+        icon: "success",
+        draggable: true
+      });
+
+      array.push(order);
+    }
+    if (item == "B1037") {
+      price = 2000 * qty;
+      discount = price * 0.01;
+      newprice = price - discount;
+      Swal.fire({
+        title: "Item Placed Succesfully!",
+        icon: "success",
+        draggable: true
+      });
+
+      array.push(order);
+    }
+    if (item == "B1038") {
+      price = 1200 * qty;
+      discount = price * 0.00;
+      newprice = price - discount;
+      Swal.fire({
+        title: "Item Placed Succesfully!",
+        icon: "success",
+        draggable: true
+      });
+
+      array.push(order);
+    }
+    if (item == "B1039") {
+      price = 2300 * qty;
+      discount = price * 0.10;
+      newprice = price - discount;
+      Swal.fire({
+        title: "Item Placed Succesfully!",
+        icon: "success",
+        draggable: true
+      });
+
+      array.push(order);
+    }
+    if (item == "B1040") {
+      price = 3100 * qty;
+      discount = price * 0.05;
+      newprice = price - discount;
+      Swal.fire({
+        title: "Item Placed Succesfully!",
+        icon: "success",
+        draggable: true
+      });
+
+      array.push(order);
+    }
+    if (item == "B1041") {
+      price = 2400 * qty;
+      discount = price * 0.00;
+      newprice = price - discount;
+      Swal.fire({
+        title: "Item Placed Succesfully!",
+        icon: "success",
+        draggable: true
+      });
+
+      array.push(order);
+    }
+
+    if (item == "B1042") {
+      price = 900 * qty;
+      discount = price * 0.00;
+      newprice = price - discount;
+      Swal.fire({
+        title: "Item Placed Succesfully!",
+        icon: "success",
+        draggable: true
+      });
+
+      array.push(order);
+    }
+
+    if (item == "B1043") {
+      price = 2100 * qty;
+      discount = price * 0.00;
+      newprice = price - discount;
+      Swal.fire({
+        title: "Item Placed Succesfully!",
+        icon: "success",
+        draggable: true
+      });
+
+      array.push(order);
+    }
+
+    if (item == "B1044") {
+      price = 990 * qty;
+      discount = price * 0.05;
+      newprice = price - discount;
+      Swal.fire({
+        title: "Item Placed Succesfully!",
+        icon: "success",
+        draggable: true
+      });
+
+      array.push(order);
+    }
+
+    if (item == "B1045") {
+      price = 1230 * qty;
+      discount = price * 0.00;
+      newprice = price - discount;
+      Swal.fire({
+        title: "Item Placed Succesfully!",
+        icon: "success",
+        draggable: true
+      });
+
+      array.push(order);
+    }
+    if (item == "B1046") {
+      price = 1500 * qty;
+      discount = price * 0.03;
+      newprice = price - discount;
+      Swal.fire({
+        title: "Item Placed Succesfully!",
+        icon: "success",
+        draggable: true
+      });
+
+      array.push(order);
+    }
+    if (item == "B1047") {
+      price = 850 * qty;
+      discount = price * 0.07;
+      newprice = price - discount;
+      Swal.fire({
+        title: "Item Placed Succesfully!",
+        icon: "success",
+        draggable: true
+      });
+
+      array.push(order);
+    }
+
+
     setTimeout(() => {
       Swal.fire({
         title: "The Amount you have to pay is RS." + newprice + "/= Discount : RS." + discount + "/=",

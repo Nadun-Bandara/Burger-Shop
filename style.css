@@ -17,7 +17,33 @@
     border-radius: 15px;
     
 }
-
+#h04{
+    
+    font-weight: 900;
+     margin: auto;
+     font-style: oblique;
+     animation: fadeIn 2s ease-in-out 1;
+  
+}
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+        transform: translateY(-50px);
+    }
+    100% {
+        opacity: 4;
+        transform: translateY(0);
+    }
+}
+#divsinhala {
+    background-color: rgb(113,9,9); 
+    color: white;
+    font-weight: bold;
+    border-radius: 46%;
+    width: 650px;
+    height: 400px;
+    
+}
 .btn-primary{
         width: 300px;
         height: 60px;    
@@ -72,30 +98,45 @@ body{
     height: 35px;
     padding-left: 50px;
     margin-left: 40px;
+    animation: slideDown 2s ease-out forwards; 
 }
 #txt2{
     width: 250px;
     height: 35px;
     padding-left: 50px;
     margin-left: 40px;
+    animation: slideDown 2s ease-out forwards; 
 }
 #txt3{
     width: 250px;
     height: 35px;
     padding-left: 50px;
     margin-left: 40px;
+    animation: slideDown 2s ease-out forwards; 
 }
 #txt4{
     width: 250px;
     height: 35px;
     padding-left: 50px;
     margin-left: 40px;
+    animation: slideDown 2s ease-out forwards; 
 }
 #txt5{
     width: 250px;
     height: 35px;
     padding-left: 50px;
     margin-left: 40px;
+    animation: slideDown 2s ease-out forwards; 
+}
+@keyframes slideDown {
+    0% {
+        opacity: 0;
+        transform: translateY(-50px); /* Initial top position */
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0); /* Final position */
+    }
 }
 #btnwarning{
     margin-top: 20px;
