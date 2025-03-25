@@ -130,18 +130,25 @@ body{
     padding: 20px;
 }
 #vid1{
-    width: 800px;
-    border-radius: 8%;
-    margin-left:220px ;
+
+    max-width: 80%;  
+    max-height: 80vh; 
+    border-radius: 10px; 
 }
 #img1{
     
-    margin-left: 250px;
+   
    padding-top: 130px;
-   margin-bottom: 100px;
-    width: 60%;
+   
+   
 }
 .card-group{
     margin: 20px;
     width: 95%;
+}
+#btn{
+    margin: 10px 20px 50px 10px;
+}
+#btn1{
+    margin: 10px 20px 50px 10px;
 }
