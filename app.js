@@ -1,4 +1,5 @@
 let array = [];
+let extraOrders=[];
 
 function addOrder() {
   let name;
@@ -12,7 +13,6 @@ function addOrder() {
   phone = parseInt(document.getElementById("txt3").value);
   item = document.getElementById("txt4").value;
   qty = parseInt(document.getElementById("txt5").value);
-
   let newprice;
   let price;
 
@@ -636,3 +636,197 @@ function cancel() {
   document.getElementById("txt4").value = "";
   document.getElementById("txt5").value = "";
 }
+
+async function extraOrder1(){
+
+  let name;
+  let address;
+  let tp;
+  let qty;
+
+  const { value: formValues } = await Swal.fire({
+    title: "Fill in the Form",
+    html: `
+     <input id="swal-input1" class="swal2-input" placeholder="Enter your Name">
+      <input id="swal-input2" class="swal2-input" placeholder="Enter your Address">
+      <input id="swal-input3" class="swal2-input" placeholder="Enter your Contact-No">
+      <input id="swal-input4" class="swal2-input" placeholder="Enter Item Quantity">
+    `,
+    focusConfirm: false,
+    preConfirm: () => {
+      return [
+      name= document.getElementById("swal-input1").value,
+      address= document.getElementById("swal-input2").value,
+      tp=parseInt(  document.getElementById("swal-input3").value),
+      qty=parseInt(document.getElementById("swal-input4").value)
+      ];
+    }
+  });
+  if (formValues) {
+    Swal.fire(JSON.stringify(formValues));
+  }
+
+    
+    let price=2000*qty;
+    let discount=price-(price*0.9);
+    let newprice = price-discount;
+    Swal.fire({
+      title: "Your Order Succesfully..! "+"Your Payment : RS."+newprice+" Discount : RS."+discount,
+      icon: "success",
+      draggable: true
+    });
+    let order={
+      name,
+      address,
+      tp,
+      qty,
+      newprice,
+      discount
+    }
+    extraOrders.push(order);
+}
+async function extraOrder2(){
+
+  let name;
+  let address;
+  let tp;
+  let qty;
+
+  const { value: formValues } = await Swal.fire({
+    title: "Fill in the Form",
+    html: `
+     <input id="swal-input1" class="swal2-input" placeholder="Enter your Name">
+      <input id="swal-input2" class="swal2-input" placeholder="Enter your Address">
+      <input id="swal-input3" class="swal2-input" placeholder="Enter your Contact-No">
+      <input id="swal-input4" class="swal2-input" placeholder="Enter Item Quantity">
+    `,
+    focusConfirm: false,
+    preConfirm: () => {
+      return [
+      name= document.getElementById("swal-input1").value,
+      address= document.getElementById("swal-input2").value,
+      tp=parseInt(  document.getElementById("swal-input3").value),
+      qty=parseInt(document.getElementById("swal-input4").value)
+      ];
+    }
+  });
+  if (formValues) {
+    Swal.fire(JSON.stringify(formValues));
+  }
+
+
+  let price=3000*qty;
+  let discount=price*0.10;
+  let newprice = price-discount;
+  Swal.fire({
+    title: "Your Order Succesfully..! "+"Your Payment : RS."+newprice+" Discount : RS."+discount,
+    icon: "success",
+    draggable: true
+  });
+  let order={
+    name,
+    address,
+    tp,
+    qty,
+    newprice,
+    discount
+  }
+  extraOrders.push(order);
+}
+async function extraOrder3(){
+
+  let name;
+  let address;
+  let tp;
+  let qty;
+
+  const { value: formValues } = await Swal.fire({
+    title: "Fill in the Form",
+    html: `
+     <input id="swal-input1" class="swal2-input" placeholder="Enter your Name">
+      <input id="swal-input2" class="swal2-input" placeholder="Enter your Address">
+      <input id="swal-input3" class="swal2-input" placeholder="Enter your Contact-No">
+      <input id="swal-input4" class="swal2-input" placeholder="Enter Item Quantity">
+    `,
+    focusConfirm: false,
+    preConfirm: () => {
+      return [
+      name= document.getElementById("swal-input1").value,
+      address= document.getElementById("swal-input2").value,
+      tp=parseInt(  document.getElementById("swal-input3").value),
+      qty=parseInt(document.getElementById("swal-input4").value)
+      ];
+    }
+  });
+  if (formValues) {
+    Swal.fire(JSON.stringify(formValues));
+  }
+
+
+  let price=800*qty;
+ 
+  Swal.fire({
+    title: "Your Order Succesfully..! "+"Your Payment : RS."+price,
+    icon: "success",
+    draggable: true
+  });
+  let order={
+    name,
+    address,
+    tp,
+    qty,
+    price
+  }
+  extraOrders.push(order);
+}
+
+async function extraOrder4(){
+
+  let name;
+  let address;
+  let tp;
+  let qty;
+
+  const { value: formValues } = await Swal.fire({
+    title: "Fill in the Form",
+    html: `
+     <input id="swal-input1" class="swal2-input" placeholder="Enter your Name">
+      <input id="swal-input2" class="swal2-input" placeholder="Enter your Address">
+      <input id="swal-input3" class="swal2-input" placeholder="Enter your Contact-No">
+      <input id="swal-input4" class="swal2-input" placeholder="Enter Item Quantity">
+    `,
+    focusConfirm: false,
+    preConfirm: () => {
+      return [
+      name= document.getElementById("swal-input1").value,
+      address= document.getElementById("swal-input2").value,
+      tp=parseInt(  document.getElementById("swal-input3").value),
+      qty=parseInt(document.getElementById("swal-input4").value)
+      ];
+    }
+  });
+  if (formValues) {
+    Swal.fire(JSON.stringify(formValues));
+  }
+
+
+
+  let price=1800*qty;
+  let discount=price*0.08;
+  let newprice = price-discount;
+  Swal.fire({
+    title: "Your Order Succesfully..! "+"Your Payment : RS."+newprice+" Discount : RS."+discount,
+    icon: "success",
+    draggable: true
+  });
+  let order={
+    name,
+    address,
+    tp,
+    qty,
+    newprice,
+    discount
+  }
+  extraOrders.push(order);
+}
+console.log(extraOrders);
