@@ -12,6 +12,26 @@
     font-weight: bolder;
 
 }
+.card-group{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+}
+.card{
+    flex: 0 0 18%;
+    max-width: 200px;
+}
+@media(max-width:768px){
+    .card{
+        flex: 0 0 45%;
+    }
+}
+@media(max-width:480px){
+    .card{
+        flex: 0 0 90%;
+    }
+}
 .navbar1{
     margin: 20px;
     background-color: chocolate;
