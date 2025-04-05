@@ -12,11 +12,23 @@
     font-weight: bolder;
 
 }
+#headH01{
+    background-color: yellow;
+    color: rgb(113,9,9);
+    text-align: center;
+    margin: auto;
+    margin: 100px;
+    font-size: large;
+    font-family: fantasy;
+    animation: fadeIn 4s ease-in-out 1;
+}
+
 .card-group{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     gap: 15px;
+    animation: fadeIn 4s ease-in-out 1;
 }
 .card{
     flex: 0 0 18%;
@@ -187,12 +199,13 @@ body{
     height: 50px;
 }
 .listDiv{
-    margin-top: 30px;
+   
     background-color:rgb(113,9,9) ;
-    margin-left: 300px;
-    margin-right: 310px;
+    animation: fadeIn 6s ease-in-out 1;
     color: white;
-    padding: 20px;
+    margin: auto;
+    padding: 100px;
+    margin: 50px;
 }
 #vid1{
 

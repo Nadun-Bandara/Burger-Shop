@@ -14,9 +14,15 @@
         <h1 id="h01">Item List</h1>
     </div>
 
+    <div id="headH01">
+        <h1>
+            Click  the  Button  on  the  item  Code  to  get  the  Order..........
+        </h1>
+    </div>
+
     <div class="listDiv">
 
-        <table border="4px" class="table">
+        <table border="4px" class="table" width="70%">
             <thead>
                 <tr>
                     <th scope="col"></th>
@@ -36,7 +42,7 @@
                 </tr>
                 <tr>
                     <th scope="row"></th>
-                    <td><button type="button" class="btn1">B1001</button></td>
+                    <td><button type="button" id="btn1" onclick="addCart(this)">B1001</button></td>
                     <td>Classic Burger(Large)</td>
                     <td>RS.750.00</td>
                     <td>2025-03-22</td>
@@ -45,7 +51,7 @@
                 </tr>
                 <tr>
                     <th scope="row"></th>
-                    <td><button type="button" class="btn2">B1002</button></td>
+                    <td><button type="button" id="btn2" onclick="addCart(this)">B1002</button></td>
                     <td>Classic Burger(Regular)</td>
                     <td>RS.1500.00</td>
                     <td>2025-03-22</td>
@@ -53,7 +59,7 @@
                 </tr>
                 <tr>
                     <th scope="row"></th>
-                    <td><button type="button" class="btn3">B1003</button></td>
+                    <td><button type="button" id="btn3" onclick="addCart(this)">B1003</button></td>
                     <td>Turkey Burger</td>
                     <td>RS.1600.00</td>
                     <td>2025-03-26</td>
@@ -61,7 +67,7 @@
                 </tr>
                 <tr>
                     <th scope="row"></th>
-                    <td><button type="button" class="btn4">B1004</button></td>
+                    <td><button type="button" id="btn4" onclick="addCart(this)">B1004</button></td>
                     <td>Chicken Burger(Large)</td>
                     <td>RS.1400.00</td>
                     <td>2025-03-25</td>
@@ -69,7 +75,7 @@
                 </tr>
                 <tr>
                     <th scope="row"></th>
-                    <td><button type="button" class="btn5">B1005</button></td>
+                    <td><button type="button" id="btn5" onclick="addCart(this)">B1005</button></td>
                     <td>Chicken Burger(Regular)</td>
                     <td>RS.800.00</td>
                     <td>2025-03-22</td>
@@ -77,7 +83,7 @@
                 </tr>
                 <tr>
                     <th scope="row"></th>
-                    <td><button type="button" class="btn6">B1006</button></td>
+                    <td><button type="button" id="btn6" onclick="addCart(this)">B1006</button></td>
                     <td>Cheese Burger(Large)</td>
                     <td>RS.1000.00</td>
                     <td>2025-03-22</td>
@@ -85,7 +91,7 @@
                 </tr>
                 <tr>
                     <th scope="row"></th>
-                    <td><button type="button" class="btn7">B1007</button></td>
+                    <td><button type="button" id="btn7" onclick="addCart(this)">B1007</button></td>
                     <td>Cheese Burger(Regular)</td>
                     <td>RS.600.00</td>
                     <td>2025-03-25</td>
@@ -93,7 +99,7 @@
                 </tr>
                 <tr>
                     <th scope="row"></th>
-                    <td><button type="button" class="btn8">B1008</button></td>
+                    <td><button type="button" id="btn8" onclick="addCart(this)">B1008</button></td>
                     <td>Bacon Burger</td>
                     <td>RS.650.00</td>
                     <td>2025-03-27</td>
@@ -101,7 +107,7 @@
                 </tr>
                 <tr>
                     <th scope="row"></th>
-                    <td><button type="button" class="btn9">B1009</button></td>
+                    <td><button type="button" id="btn9" onclick="addCart(this)">B1009</button></td>
                     <td>Shawarma Burger </td>
                     <td>RS.800.00</td>
                     <td>2025-03-22</td>
@@ -110,7 +116,7 @@
 
                 <tr>
                     <th scope="row"></th>
-                    <td><button type="button" class="btn10">B1010</button></td>
+                    <td><button type="button" id="btn10" onclick="addCart(this)">B1010</button></td>
                     <td>Olive Burger</td>
                     <td>RS.1800.00</td>
                     <td>2025-03-22</td>
@@ -119,7 +125,7 @@
 
                 <tr>
                     <th scope="row"></th>
-                    <td><button type="button" class="btn10">B1012</button></td>
+                    <td><button type="button" id="btn10" onclick="addCart(this)">B1012</button></td>
                     <td>Double-Cheese Burger</td>
                     <td>RS.1250.00</td>
                     <td>2025-03-22</td>
@@ -128,7 +134,7 @@
                
                 <tr>
                     <th scope="row"></th>
-                    <td><button type="button" class="btn10">B1013</button></td>
+                    <td><button type="button" id="btn10" onclick="addCart(this)">B1013</button></td>
                     <td>Crispy Chicken Burger (Regular)</td>
                     <td>RS.1200.00</td>
                     <td>2025-03-22</td>
@@ -137,7 +143,7 @@
                 
                 <tr>
                     <th scope="row"></th>
-                    <td><button type="button" class="btn10">B1014</button></td>
+                    <td><button type="button" id="btn10" onclick="addCart(this)">B1014</button></td>
                     <td>Crispy Chicken Burger (Large)</td>
                     <td>RS.1600.00</td>
                     <td>2025-03-22</td>
@@ -145,7 +151,7 @@
                 </tr>
                 <tr>
                     <th scope="row"></th>
-                    <td><button type="button" class="btn10">B1015</button></td>
+                    <td><button type="button" id="btn10" onclick="addCart(this)">B1015</button></td>
                     <td>Paneer Burger</td>
                     <td>RS.1250.00</td>
                     <td>2025-03-22</td>
@@ -154,7 +160,7 @@
                 
                 <tr>
                     <th scope="row"></th>
-                    <td><button type="button" class="btn10">B1016</button></td>
+                    <td><button type="button" id="btn10" onclick="addCart(this)">B1016</button></td>
                     <td>Crispy Chicken Submarine (Large)</td>
                     <td>RS.2000.00</td>
                     <td>2025-03-22</td>
@@ -163,7 +169,7 @@
                 
                 <tr>
                     <th scope="row"></th>
-                    <td><button type="button" class="btn10">B1017</button></td>
+                    <td><button type="button" id="btn10" onclick="addCart(this)">B1017</button></td>
                     <td>Crispy Chicken Submarine (Regular) </td>
                     <td>RS.1500.00</td>
                     <td>2025-03-22</td>
@@ -172,7 +178,7 @@
 
                 <tr>
                     <th scope="row"></th>
-                    <td><button type="button" class="btn10">B1018</button></td>
+                    <td><button type="button" id="btn10" onclick="addCart(this)">B1018</button></td>
                     <td>Chicken Submarine (Large)</td>
                     <td>RS.1800.00</td>
                     <td>2025-03-22</td>
@@ -181,7 +187,7 @@
 
                 <tr>
                     <th scope="row"></th>
-                    <td><button type="button" class="btn10">B1019</button></td>
+                    <td><button type="button" id="btn10" onclick="addCart(this)">B1019</button></td>
                     <td>Chicken Submarine (Regular)</td>
                     <td>RS.1400.00</td>
                     <td>2025-03-22</td>
@@ -192,7 +198,7 @@
 
                 <tr>
                     <th scope="row"></th>
-                    <td><button type="button" class="btn10">B1020</button></td>
+                    <td><button type="button" id="btn10" onclick="addCart(this)">B1020</button></td>
                     <td>Grinder Submarine</td>
                     <td>RS.2300.00 </td>
                     <td>2025-03-22</td>
@@ -201,7 +207,7 @@
 
                 <tr>
                     <th scope="row"></th>
-                    <td><button type="button" class="btn10">B1021</button></td>
+                    <td><button type="button" id="btn10" onclick="addCart(this)">B1021</button></td>
                     <td>Cheese Submarine</td>
                     <td>RS.2200.00</td>
                     <td>2025-03-22</td>
@@ -210,7 +216,7 @@
 
                 <tr>
                     <th scope="row"></th>
-                    <td><button type="button" class="btn10">B1022</button></td>
+                    <td><button type="button" id="btn10" onclick="addCart(this)">B1022</button></td>
                     <td>Double Cheese n Chicken Submarine </td>
                     <td>RS.1900.00</td>
                     <td>2025-03-22</td>
@@ -219,7 +225,7 @@
 
                 <tr>
                     <th scope="row"></th>
-                    <td><button type="button" class="btn10">B1023</button></td>
+                    <td><button type="button" id="btn10" onclick="addCart(this)">B1023</button></td>
                     <td>Special Horgie Submarine</td>
                     <td>RS.2800.00</td>
                     <td>2025-03-22</td>
@@ -228,7 +234,7 @@
 
                 <tr>
                     <th scope="row"></th>
-                    <td><button type="button" class="btn10">B1024</button></td>
+                    <td><button type="button" id="btn10" onclick="addCart(this)">B1024</button></td>
                     <td>MOS Special Submarine</td>
                     <td>RS.3000.00</td>
                     <td>2025-03-22</td>
@@ -237,7 +243,7 @@
 
                 <tr>
                     <th scope="row"></th>
-                    <td><button type="button" class="btn10">B1025</button></td>
+                    <td><button type="button" id="btn10" onclick="addCart(this)">B1025</button></td>
                     <td>Steak Fries (Large)</td>
                     <td>RS.1200.00 </td>
                     <td>2025-03-22</td>
@@ -246,7 +252,7 @@
 
                 <tr>
                     <th scope="row"></th>
-                    <td><button type="button" class="btn10">B1026</button></td>
+                    <td><button type="button" id="btn10" onclick="addCart(this)">B1026</button></td>
                     <td>Steak Fries (Medium)</td>
                     <td>RS.600.00 </td>
                     <td>2025-03-22</td>
@@ -255,7 +261,7 @@
 
                 <tr>
                     <th scope="row"></th>
-                    <td><button type="button" class="btn10">B1027</button></td>
+                    <td><button type="button" id="btn10" onclick="addCart(this)">B1027</button></td>
                     <td>French Fries (Large) </td>
                     <td>RS.800.00 </td>
                     <td>2025-03-22</td>
@@ -264,7 +270,7 @@
 
                 <tr>
                     <th scope="row"></th>
-                    <td><button type="button" class="btn10">B1028</button></td>
+                    <td><button type="button" id="btn10" onclick="addCart(this)">B1028</button></td>
                     <td>French Fries (Medium)</td>
                     <td>RS.650.00</td>
                     <td>2025-03-22</td>
@@ -273,7 +279,7 @@
 
                 <tr>
                     <th scope="row"></th>
-                    <td><button type="button" class="btn10">B1029</button></td>
+                    <td><button type="button" id="btn10" onclick="addCart(this)">B1029</button></td>
                     <td>French Fries (Small) </td>
                     <td>RS.450.00 </td>
                     <td>2025-03-22</td>
@@ -282,7 +288,7 @@
 
                 <tr>
                     <th scope="row"></th>
-                    <td><button type="button" class="btn10">B1030</button></td>
+                    <td><button type="button" id="btn10" onclick="addCart(this)">B1030</button></td>
                     <td>Sweet Potato Fries (Large) </td>
                     <td>RS.600.00</td>
                     <td>2025-03-22</td>
@@ -291,7 +297,7 @@
 
                 <tr>
                     <th scope="row"></th>
-                    <td><button type="button" class="btn10">B1031</button></td>
+                    <td><button type="button" id="btn10" onclick="addCart(this)">B1031</button></td>
                     <td>Chicken n Cheese Pasta  </td>
                     <td>RS.1600.00</td>
                     <td>2025-03-22</td>
@@ -299,7 +305,7 @@
                 </tr>
                 <tr>
                     <th scope="row"></th>
-                    <td><button type="button" class="btn10">B1032</button></td>
+                    <td><button type="button" id="btn10" onclick="addCart(this)">B1032</button></td>
                     <td>Chicken Penne Pasta </td>
                     <td>RS.1700.00</td>
                     <td>2025-03-22</td>
@@ -307,7 +313,7 @@
                 </tr>
                 <tr>
                     <th scope="row"></th>
-                    <td><button type="button" class="btn10">B1033</button></td>
+                    <td><button type="button" id="btn10" onclick="addCart(this)">B1033</button></td>
                     <td>Ground Turkey Pasta Bake  </td>
                     <td>RS.2900.00</td>
                     <td>2025-03-22</td>
@@ -315,7 +321,7 @@
                 </tr>
                 <tr>
                     <th scope="row"></th>
-                    <td><button type="button" class="btn10">B1034</button></td>
+                    <td><button type="button" id="btn10" onclick="addCart(this)">B1034</button></td>
                     <td>Creamy Shrimp Pasta  </td>
                     <td>RS.2000.00</td>
                     <td>2025-03-22</td>
@@ -323,7 +329,7 @@
                 </tr>
                 <tr>
                     <th scope="row"></th>
-                    <td><button type="button" class="btn10">B1035</button></td>
+                    <td><button type="button" id="btn10" onclick="addCart(this)">B1035</button></td>
                     <td>Lemon Butter Pasta  </td>
                     <td>RS.1950.00</td>
                     <td>2025-03-22</td>
@@ -331,7 +337,7 @@
                 </tr>
                 <tr>
                     <th scope="row"></th>
-                    <td><button type="button" class="btn10">B1036</button></td>
+                    <td><button type="button" id="btn10" onclick="addCart(this)">B1036</button></td>
                     <td>Tagliatelle Pasta  </td>
                     <td>RS.2400.00</td>
                     <td>2025-03-22</td>
@@ -339,7 +345,7 @@
                 </tr>
                 <tr>
                     <th scope="row"></th>
-                    <td><button type="button" class="btn10">B1037</button></td>
+                    <td><button type="button" id="btn10" onclick="addCart(this)">B1037</button></td>
                     <td>Baked Ravioli  </td>
                     <td>RS.2000.00</td>
                     <td>2025-03-22</td>
@@ -347,7 +353,7 @@
                 </tr>
                 <tr>
                     <th scope="row"></th>
-                    <td><button type="button" class="btn10">B1038</button></td>
+                    <td><button type="button" id="btn10" onclick="addCart(this)">B1038</button></td>
                     <td>Fried Chicken (Small)  </td>
                     <td>RS.1200.00</td>
                     <td>2025-03-22</td>
@@ -355,7 +361,7 @@
                 </tr>
                 <tr>
                     <th scope="row"></th>
-                    <td><button type="button" class="btn10">B1039</button></td>
+                    <td><button type="button" id="btn10" onclick="addCart(this)">B1039</button></td>
                     <td>Fried Chicken (Regular)  </td>
                     <td>RS.2300.00</td>
                     <td>2025-03-22</td>
@@ -363,7 +369,7 @@
                 </tr>
                 <tr>
                     <th scope="row"></th>
-                    <td><button type="button" class="btn10">B1040</button></td>
+                    <td><button type="button" id="btn10" onclick="addCart(this)">B1040</button></td>
                     <td>Fried Chicken (Large)  </td>
                     <td>RS.3100.00</td>
                     <td>2025-03-22</td>
@@ -371,7 +377,7 @@
                 </tr>
                 <tr>
                     <th scope="row"></th>
-                    <td><button type="button" class="btn10">B1041</button></td>
+                    <td><button type="button" id="btn10" onclick="addCart(this)">B1041</button></td>
                     <td>Hot Wings (Large)  </td>
                     <td>RS.2400.00</td>
                     <td>2025-03-22</td>
@@ -379,7 +385,7 @@
                 </tr>
                 <tr>
                     <th scope="row"></th>
-                    <td><button type="button" class="btn10">B1042</button></td>
+                    <td><button type="button" id="btn10" onclick="addCart(this)">B1042</button></td>
                     <td>Devilled Chicken (Large) </td>
                     <td>RS.900.00</td>
                     <td>2025-03-22</td>
@@ -387,7 +393,7 @@
                 </tr>
                 <tr>
                     <th scope="row"></th>
-                    <td><button type="button" class="btn10">B1043</button></td>
+                    <td><button type="button" id="btn10" onclick="addCart(this)">B1043</button></td>
                     <td>BBQ Chicken (Regular)  </td>
                     <td>RS.2100.00</td>
                     <td>2025-03-22</td>
@@ -395,7 +401,7 @@
                 </tr>
                 <tr>
                     <th scope="row"></th>
-                    <td><button type="button" class="btn10">B1044</button></td>
+                    <td><button type="button" id="btn10" onclick="addCart(this)">B1044</button></td>
                     <td>Pepsi (330ml) </td>
                     <td>RS.990.00</td>
                     <td>2025-03-22</td>
@@ -403,7 +409,7 @@
                 </tr>
                 <tr>
                     <th scope="row"></th>
-                    <td><button type="button" class="btn10">B1045</button></td>
+                    <td><button type="button" id="btn10" onclick="addCart(this)">B1045</button></td>
                     <td>Coca-Cola (330ml)</td>
                     <td>RS.1230.00</td>
                     <td>2025-03-22</td>
@@ -411,7 +417,7 @@
                 </tr>
                 <tr>
                     <th scope="row"></th>
-                    <td><button type="button" class="btn10">B1046</button></td>
+                    <td><button type="button" id="btn10" onclick="addCart(this)">B1046</button></td>
                     <td>Sprite (330ml) </td>
                     <td>RS.1500.00</td>
                     <td>2025-03-22</td>
@@ -419,7 +425,7 @@
                 </tr>
                 <tr>
                     <th scope="row"></th>
-                    <td><button type="button" class="btn10">B1047</button></td>
+                    <td><button type="button" id="btn10" onclick="addCart(this)">B1047</button></td>
                     <td>Mirinda (330ml) </td>
                     <td>RS.850.00</td>
                     <td>2025-03-22</td>
@@ -432,6 +438,7 @@
             </tbody>
         </table>
     </div>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <script src="app.js"></script>
 </body>
 

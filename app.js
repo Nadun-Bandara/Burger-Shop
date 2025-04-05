@@ -830,3 +830,974 @@ async function extraOrder4(){
   extraOrders.push(order);
 }
 console.log(extraOrders);
+
+let cartArray=[];
+ 
+    
+ function addCart(button){
+  let btn=button.innerText;
+  console.log(btn);
+  
+  if(btn=="B1001"){   
+    btn={
+      name : "classic burger(large)",
+      price : 750.00,
+      dom :"2025-03-22",
+      exp :"2025-03-30"
+    }
+    
+    Swal.fire({
+      position: "top-end",
+      icon: "success",
+      title: btn.name+" : Rs "+btn.price+".00\n"+"Your Order Added Succsfully",
+      showConfirmButton: false,
+      timer: 1500
+    });
+
+    array.push(btn);
+  }
+
+  //==============================
+
+  if(btn=="B1002"){   
+    btn={
+      name : "classic burger(Regular)",
+      price : 1500.00,
+      dom :"2025-03-22",
+      exp :"2025-03-30"
+    }
+    
+    Swal.fire({
+      position: "top-end",
+      icon: "success",
+      title: btn.name+" : Rs "+btn.price+".00\n"+"Your Order Added Succsfully",
+      showConfirmButton: false,
+      timer: 1500
+    });
+
+    array.push(btn);
+  }
+  //==============================
+
+  if(btn=="B1003"){   
+    btn={
+      name : "Turkey Burger",
+      price : 1600.00,
+      dom :"2025-03-26",
+      exp :"2025-03-30"
+    }
+    
+    Swal.fire({
+      position: "top-end",
+      icon: "success",
+      title: btn.name+" : Rs "+btn.price+".00\n"+"Your Order Added Succsfully",
+      showConfirmButton: false,
+      timer: 1500
+    });
+
+    array.push(btn);
+  }
+  //==============================
+
+  if(btn=="B1004"){   
+    btn={
+      name : "Chicken Burger(Large)",
+      price : 1400.00,
+      dom :"2025-03-26",
+      exp :"2025-03-30"
+    }
+    
+    Swal.fire({
+      position: "top-end",
+      icon: "success",
+      title: btn.name+" : Rs "+btn.price+".00\n"+"Your Order Added Succsfully",
+      showConfirmButton: false,
+      timer: 1500
+    });
+
+    array.push(btn);
+  }
+  //==============================
+
+  if(btn=="B1005"){   
+    btn={
+      name : "Chicken Burger(Regular)",
+      price : 800.00,
+      dom :"2025-03-26",
+      exp :"2025-03-30"
+    }
+    
+    Swal.fire({
+      position: "top-end",
+      icon: "success",
+      title: btn.name+" : Rs "+btn.price+".00\n"+"Your Order Added Succsfully",
+      showConfirmButton: false,
+      timer: 1500
+    });
+
+    array.push(btn);
+  }
+  //==============================
+
+  if(btn=="B1006"){   
+    btn={
+      name : "Cheese Burger (Large)",
+      price : 1000.00,
+      dom :"2025-03-26",
+      exp :"2025-03-30"
+    }
+    
+    Swal.fire({
+      position: "top-end",
+      icon: "success",
+      title: btn.name+" : Rs "+btn.price+".00\n"+"Your Order Added Succsfully",
+      showConfirmButton: false,
+      timer: 1500
+    });
+
+    array.push(btn);
+  }
+  //==============================
+
+  if(btn=="B1007"){   
+    btn={
+      name : "Cheese Burger (Regular)",
+      price : 600.00,
+      dom :"2025-03-26",
+      exp :"2025-03-30"
+    }
+    
+    Swal.fire({
+      position: "top-end",
+      icon: "success",
+      title: btn.name+" : Rs "+btn.price+".00\n"+"Your Order Added Succsfully",
+      showConfirmButton: false,
+      timer: 1500
+    });
+
+    array.push(btn);
+  }
+  //==============================
+
+  if(btn=="B1006"){   
+    btn={
+      name : "Cheese Burger (Large)",
+      price : 1000.00,
+      dom :"2025-03-26",
+      exp :"2025-03-30"
+    }
+    
+    Swal.fire({
+      position: "top-end",
+      icon: "success",
+      title: btn.name+" : Rs "+btn.price+".00\n"+"Your Order Added Succsfully",
+      showConfirmButton: false,
+      timer: 1500
+    });
+
+    array.push(btn);
+  }
+  //==============================
+
+  if(btn=="B1007"){   
+    btn={
+      name : "Cheese Burger (Regular)",
+      price : 600.00,
+      dom :"2025-03-26",
+      exp :"2025-03-30"
+    }
+    
+    Swal.fire({
+      position: "top-end",
+      icon: "success",
+      title: btn.name+" : Rs "+btn.price+".00\n"+"Your Order Added Succsfully",
+      showConfirmButton: false,
+      timer: 1500
+    });
+
+    array.push(btn);
+  }
+  //==============================
+
+  if(btn=="B1008"){   
+    btn={
+      name : "Bacon Burger ",
+      price : 650.00,
+      dom :"2025-03-26",
+      exp :"2025-03-30"
+    }
+    
+    Swal.fire({
+      position: "top-end",
+      icon: "success",
+      title: btn.name+" : Rs "+btn.price+".00\n"+"Your Order Added Succsfully",
+      showConfirmButton: false,
+      timer: 1500
+    });
+
+    array.push(btn);
+  }
+  //==============================
+
+  if(btn=="B1009"){   
+    btn={
+      name : "Shawarma Burger ",
+      price : 800.00,
+      dom :"2025-03-26",
+      exp :"2025-03-30"
+    }
+    
+    Swal.fire({
+      position: "top-end",
+      icon: "success",
+      title: btn.name+" : Rs "+btn.price+".00\n"+"Your Order Added Succsfully",
+      showConfirmButton: false,
+      timer: 1500
+    });
+
+    array.push(btn);
+  }
+  //==============================
+
+  if(btn=="B1010"){   
+    btn={
+      name : "Olive Burger ",
+      price : 1800.00,
+      dom :"2025-03-26",
+      exp :"2025-03-30"
+    }
+    
+    Swal.fire({
+      position: "top-end",
+      icon: "success",
+      title: btn.name+" : Rs "+btn.price+".00\n"+"Your Order Added Succsfully",
+      showConfirmButton: false,
+      timer: 1500
+    });
+
+    array.push(btn);
+  }
+  //==============================
+
+  if(btn=="B1012"){   
+    btn={
+      name : "Double Cheese Burger ",
+      price : 1250.00,
+      dom :"2025-03-26",
+      exp :"2025-03-30"
+    }
+    
+    Swal.fire({
+      position: "top-end",
+      icon: "success",
+      title: btn.name+" : Rs "+btn.price+".00\n"+"Your Order Added Succsfully",
+      showConfirmButton: false,
+      timer: 1500
+    });
+
+    array.push(btn);
+  }
+  //==============================
+
+  if(btn=="B1013"){   
+    btn={
+      name : "Chrispy Chicken Burger (Regular)",
+      price : 1200.00,
+      dom :"2025-03-26",
+      exp :"2025-03-30"
+    }
+    
+    Swal.fire({
+      position: "top-end",
+      icon: "success",
+      title: btn.name+" : Rs "+btn.price+".00\n"+"Your Order Added Succsfully",
+      showConfirmButton: false,
+      timer: 1500
+    });
+
+    array.push(btn);
+  }
+  //==============================
+
+  if(btn=="B1014"){   
+    btn={
+      name : "Chrispy Chicken Burger (Large)",
+      price : 1600.00,
+      dom :"2025-03-26",
+      exp :"2025-03-30"
+    }
+    
+    Swal.fire({
+      position: "top-end",
+      icon: "success",
+      title: btn.name+" : Rs "+btn.price+".00\n"+"Your Order Added Succsfully",
+      showConfirmButton: false,
+      timer: 1500
+    });
+
+    array.push(btn);
+  }
+  //==============================
+
+  if(btn=="B1015"){   
+    btn={
+      name : "Paneer Burger ",
+      price : 1250.00,
+      dom :"2025-03-26",
+      exp :"2025-03-30"
+    }
+    
+    Swal.fire({
+      position: "top-end",
+      icon: "success",
+      title: btn.name+" : Rs "+btn.price+".00\n"+"Your Order Added Succsfully",
+      showConfirmButton: false,
+      timer: 1500
+    });
+
+    array.push(btn);
+  }
+   //==============================
+
+   if(btn=="B1016"){   
+    btn={
+      name : "Crispy Chicken Submarine(Large) ",
+      price : 2000.00,
+      dom :"2025-03-26",
+      exp :"2025-03-30"
+    }
+    
+    Swal.fire({
+      position: "top-end",
+      icon: "success",
+      title: btn.name+" : Rs "+btn.price+".00\n"+"Your Order Added Succsfully",
+      showConfirmButton: false,
+      timer: 1500
+    });
+
+    array.push(btn);
+  }
+   //==============================
+
+   if(btn=="B1017"){   
+    btn={
+      name : "Crispy Chicken Submarine(Regular)",
+      price : 1500.00,
+      dom :"2025-03-26",
+      exp :"2025-03-30"
+    }
+    
+    Swal.fire({
+      position: "top-end",
+      icon: "success",
+      title: btn.name+" : Rs "+btn.price+".00\n"+"Your Order Added Succsfully",
+      showConfirmButton: false,
+      timer: 1500
+    });
+
+    array.push(btn);
+  }
+   //==============================
+
+   if(btn=="B1018"){   
+    btn={
+      name : "Chicken Submarine(Large) ",
+      price : 1800.00,
+      dom :"2025-03-26",
+      exp :"2025-03-30"
+    }
+    
+    Swal.fire({
+      position: "top-end",
+      icon: "success",
+      title: btn.name+" : Rs "+btn.price+".00\n"+"Your Order Added Succsfully",
+      showConfirmButton: false,
+      timer: 1500
+    });
+
+    array.push(btn);
+  }
+   //==============================
+
+   if(btn=="B1019"){   
+    btn={
+      name : "Chicken Submarine(Regular) ",
+      price : 1400.00,
+      dom :"2025-03-26",
+      exp :"2025-03-30"
+    }
+    
+    Swal.fire({
+      position: "top-end",
+      icon: "success",
+      title: btn.name+" : Rs "+btn.price+".00\n"+"Your Order Added Succsfully",
+      showConfirmButton: false,
+      timer: 1500
+    });
+
+    array.push(btn);
+  }
+   //==============================
+
+   if(btn=="B1020"){   
+    btn={
+      name : "Grinder Submarine ",
+      price : 2300.00,
+      dom :"2025-03-26",
+      exp :"2025-03-30"
+    }
+    
+    Swal.fire({
+      position: "top-end",
+      icon: "success",
+      title: btn.name+" : Rs "+btn.price+".00\n"+"Your Order Added Succsfully",
+      showConfirmButton: false,
+      timer: 1500
+    });
+
+    array.push(btn);
+  }
+   //==============================
+
+   if(btn=="B1021"){   
+    btn={
+      name : "Cheese Submarine ",
+      price : 2200.00,
+      dom :"2025-03-26",
+      exp :"2025-03-30"
+    }
+    
+    Swal.fire({
+      position: "top-end",
+      icon: "success",
+      title: btn.name+" : Rs "+btn.price+".00\n"+"Your Order Added Succsfully",
+      showConfirmButton: false,
+      timer: 1500
+    });
+
+    array.push(btn);
+  }
+   //==============================
+
+   if(btn=="B1022"){   
+    btn={
+      name : "Double Cheese n Chicken Submarine  ",
+      price : 1900.00,
+      dom :"2025-03-26",
+      exp :"2025-03-30"
+    }
+    
+    Swal.fire({
+      position: "top-end",
+      icon: "success",
+      title: btn.name+" : Rs "+btn.price+".00\n"+"Your Order Added Succsfully",
+      showConfirmButton: false,
+      timer: 1500
+    });
+
+    array.push(btn);
+  }
+  //==============================
+
+  if(btn=="B1023"){   
+    btn={
+      name : "Special Horgie Submarine ",
+      price : 2800.00,
+      dom :"2025-03-26",
+      exp :"2025-03-30"
+    }
+    
+    Swal.fire({
+      position: "top-end",
+      icon: "success",
+      title: btn.name+" : Rs "+btn.price+".00\n"+"Your Order Added Succsfully",
+      showConfirmButton: false,
+      timer: 1500
+    });
+
+    array.push(btn);
+  }
+  //==============================
+
+  if(btn=="B1024"){   
+    btn={
+      name : "MOS Special Submarine  ",
+      price : 3000.00,
+      dom :"2025-03-26",
+      exp :"2025-03-30"
+    }
+    
+    Swal.fire({
+      position: "top-end",
+      icon: "success",
+      title: btn.name+" : Rs "+btn.price+".00\n"+"Your Order Added Succsfully",
+      showConfirmButton: false,
+      timer: 1500
+    });
+
+    array.push(btn);
+  }
+//==============================
+
+if(btn=="B1025"){   
+  btn={
+    name : "Steak Fries (Large) ",
+    price : 1200.00,
+    dom :"2025-03-26",
+    exp :"2025-03-30"
+  }
+  
+  Swal.fire({
+    position: "top-end",
+    icon: "success",
+    title: btn.name+" : Rs "+btn.price+".00\n"+"Your Order Added Succsfully",
+    showConfirmButton: false,
+    timer: 1500
+  });
+
+  array.push(btn);
+}
+//==============================
+
+if(btn=="B1026"){   
+  btn={
+    name : "Steak Fries (Medium) ",
+    price : 600.00,
+    dom :"2025-03-26",
+    exp :"2025-03-30"
+  }
+  
+  Swal.fire({
+    position: "top-end",
+    icon: "success",
+    title: btn.name+" : Rs "+btn.price+".00\n"+"Your Order Added Succsfully",
+    showConfirmButton: false,
+    timer: 1500
+  });
+
+  array.push(btn);
+}
+//==============================
+
+if(btn=="B1027"){   
+  btn={
+    name : "French Fries (Large)  ",
+    price : 800.00,
+    dom :"2025-03-26",
+    exp :"2025-03-30"
+  }
+  
+  Swal.fire({
+    position: "top-end",
+    icon: "success",
+    title: btn.name+" : Rs "+btn.price+".00\n"+"Your Order Added Succsfully",
+    showConfirmButton: false,
+    timer: 1500
+  });
+
+  array.push(btn);
+}
+//==============================
+
+if(btn=="B1028"){   
+  btn={
+    name : "French Fries (Medium)   ",
+    price : 650.00,
+    dom :"2025-03-26",
+    exp :"2025-03-30"
+  }
+  
+  Swal.fire({
+    position: "top-end",
+    icon: "success",
+    title: btn.name+" : Rs "+btn.price+".00\n"+"Your Order Added Succsfully",
+    showConfirmButton: false,
+    timer: 1500
+  });
+
+  array.push(btn);
+}
+//==============================
+
+if(btn=="B1029"){   
+  btn={
+    name : "French Fries (Small)   ",
+    price : 450.00,
+    dom :"2025-03-26",
+    exp :"2025-03-30"
+  }
+  
+  Swal.fire({
+    position: "top-end",
+    icon: "success",
+    title: btn.name+" : Rs "+btn.price+".00\n"+"Your Order Added Succsfully",
+    showConfirmButton: false,
+    timer: 1500
+  });
+
+  array.push(btn);
+}
+//==============================
+
+if(btn=="B1030"){   
+  btn={
+    name : "Sweet Potato Fries (Large)    ",
+    price : 600.00,
+    dom :"2025-03-26",
+    exp :"2025-03-30"
+  }
+  
+  Swal.fire({
+    position: "top-end",
+    icon: "success",
+    title: btn.name+" : Rs "+btn.price+".00\n"+"Your Order Added Succsfully",
+    showConfirmButton: false,
+    timer: 1500
+  });
+
+  array.push(btn);
+}
+//==============================
+
+if(btn=="B1031"){   
+  btn={
+    name : "Chicken n Cheese Pasta     ",
+    price : 1600.00,
+    dom :"2025-03-26",
+    exp :"2025-03-30"
+  }
+  
+  Swal.fire({
+    position: "top-end",
+    icon: "success",
+    title: btn.name+" : Rs "+btn.price+".00\n"+"Your Order Added Succsfully",
+    showConfirmButton: false,
+    timer: 1500
+  });
+
+  array.push(btn);
+}
+//==============================
+
+if(btn=="B1032"){   
+  btn={
+    name : "Chicken Penne Pasta     ",
+    price : 1700.00,
+    dom :"2025-03-26",
+    exp :"2025-03-30"
+  }
+  
+  Swal.fire({
+    position: "top-end",
+    icon: "success",
+    title: btn.name+" : Rs "+btn.price+".00\n"+"Your Order Added Succsfully",
+    showConfirmButton: false,
+    timer: 1500
+  });
+
+  array.push(btn);
+}
+//==============================
+
+if(btn=="B1033"){   
+  btn={
+    name : "Ground Turkey Pasta Bake    ",
+    price : 2900.00,
+    dom :"2025-03-26",
+    exp :"2025-03-30"
+  }
+  
+  Swal.fire({
+    position: "top-end",
+    icon: "success",
+    title: btn.name+" : Rs "+btn.price+".00\n"+"Your Order Added Succsfully",
+    showConfirmButton: false,
+    timer: 1500
+  });
+
+  array.push(btn);
+}
+//==============================
+
+if(btn=="B1034"){   
+  btn={
+    name : "Creamy Shrimp Pasta     ",
+    price : 2000.00,
+    dom :"2025-03-26",
+    exp :"2025-03-30"
+  }
+  
+  Swal.fire({
+    position: "top-end",
+    icon: "success",
+    title: btn.name+" : Rs "+btn.price+".00\n"+"Your Order Added Succsfully",
+    showConfirmButton: false,
+    timer: 1500
+  });
+
+  array.push(btn);
+}
+//==============================
+
+if(btn=="B1035"){   
+  btn={
+    name : "Lemon Butter Pasta     ",
+    price : 1950.00,
+    dom :"2025-03-26",
+    exp :"2025-03-30"
+  }
+  
+  Swal.fire({
+    position: "top-end",
+    icon: "success",
+    title: btn.name+" : Rs "+btn.price+".00\n"+"Your Order Added Succsfully",
+    showConfirmButton: false,
+    timer: 1500
+  });
+
+  array.push(btn);
+}
+//==============================
+
+if(btn=="B1036"){   
+  btn={
+    name : "Tagliatelle Pasta      ",
+    price : 2400.00,
+    dom :"2025-03-26",
+    exp :"2025-03-30"
+  }
+  
+  Swal.fire({
+    position: "top-end",
+    icon: "success",
+    title: btn.name+" : Rs "+btn.price+".00\n"+"Your Order Added Succsfully",
+    showConfirmButton: false,
+    timer: 1500
+  });
+
+  array.push(btn);
+}
+//==============================
+
+if(btn=="B1037"){   
+  btn={
+    name : "Baked Ravioli       ",
+    price : 2000.00,
+    dom :"2025-03-26",
+    exp :"2025-03-30"
+  }
+  
+  Swal.fire({
+    position: "top-end",
+    icon: "success",
+    title: btn.name+" : Rs "+btn.price+".00\n"+"Your Order Added Succsfully",
+    showConfirmButton: false,
+    timer: 1500
+  });
+
+  array.push(btn);
+}
+//==============================
+
+if(btn=="B1038"){   
+  btn={
+    name : "Fried Chicken (Small)       ",
+    price : 1200.00,
+    dom :"2025-03-26",
+    exp :"2025-03-30"
+  }
+  
+  Swal.fire({
+    position: "top-end",
+    icon: "success",
+    title: btn.name+" : Rs "+btn.price+".00\n"+"Your Order Added Succsfully",
+    showConfirmButton: false,
+    timer: 1500
+  });
+
+  array.push(btn);
+}
+//==============================
+
+if(btn=="B1039"){   
+  btn={
+    name : "Fried Chicken (Regular)       ",
+    price : 2300.00,
+    dom :"2025-03-26",
+    exp :"2025-03-30"
+  }
+  
+  Swal.fire({
+    position: "top-end",
+    icon: "success",
+    title: btn.name+" : Rs "+btn.price+".00\n"+"Your Order Added Succsfully",
+    showConfirmButton: false,
+    timer: 1500
+  });
+
+  array.push(btn);
+}
+//==============================
+
+if(btn=="B1040"){   
+  btn={
+    name : "Fried Chicken (Large)       ",
+    price : 3100.00,
+    dom :"2025-03-26",
+    exp :"2025-03-30"
+  }
+  
+  Swal.fire({
+    position: "top-end",
+    icon: "success",
+    title: btn.name+" : Rs "+btn.price+".00\n"+"Your Order Added Succsfully",
+    showConfirmButton: false,
+    timer: 1500
+  });
+
+  array.push(btn);
+}
+//==============================
+
+if(btn=="B1041"){   
+  btn={
+    name : "Hot Wings (Large)       ",
+    price : 2400.00,
+    dom :"2025-03-26",
+    exp :"2025-03-30"
+  }
+  
+  Swal.fire({
+    position: "top-end",
+    icon: "success",
+    title: btn.name+" : Rs "+btn.price+".00\n"+"Your Order Added Succsfully",
+    showConfirmButton: false,
+    timer: 1500
+  });
+
+  array.push(btn);
+}
+//==============================
+
+if(btn=="B1042"){   
+  btn={
+    name : "Devilled Chicken (Large)",
+    price :900.00,
+    dom :"2025-03-26",
+    exp :"2025-03-30"
+  }
+  
+  Swal.fire({
+    position: "top-end",
+    icon: "success",
+    title: btn.name+" : Rs "+btn.price+".00\n"+"Your Order Added Succsfully",
+    showConfirmButton: false,
+    timer: 1500
+  });
+
+  array.push(btn);
+}
+
+//==============================
+
+if(btn=="B1043"){   
+  btn={
+    name : "BBQ Chicken (Regular)",
+    price :2100.00,
+    dom :"2025-03-26",
+    exp :"2025-03-30"
+  }
+  
+  Swal.fire({
+    position: "top-end",
+    icon: "success",
+    title: btn.name+" : Rs "+btn.price+".00\n"+"Your Order Added Succsfully",
+    showConfirmButton: false,
+    timer: 1500
+  });
+
+  array.push(btn);
+}
+//==============================
+
+if(btn=="B1044"){   
+  btn={
+    name : "Pepsi(330ml)",
+    price :990.00,
+    dom :"2025-03-26",
+    exp :"2025-03-30"
+  }
+  
+  Swal.fire({
+    position: "top-end",
+    icon: "success",
+    title: btn.name+" : Rs "+btn.price+".00\n"+"Your Order Added Succsfully",
+    showConfirmButton: false,
+    timer: 1500
+  });
+
+  array.push(btn);
+}
+//==============================
+
+if(btn=="B1045"){   
+  btn={
+    name : "Coca-Cola(330ml)",
+    price :1230.00,
+    dom :"2025-03-26",
+    exp :"2025-03-30"
+  }
+  
+  Swal.fire({
+    position: "top-end",
+    icon: "success",
+    title: btn.name+" : Rs "+btn.price+".00\n"+"Your Order Added Succsfully",
+    showConfirmButton: false,
+    timer: 1500
+  });
+
+  array.push(btn);
+}
+//==============================
+
+if(btn=="B1046"){   
+  btn={
+    name : "Sprite(330ml)",
+    price :1500.00,
+    dom :"2025-03-26",
+    exp :"2025-03-30"
+  }
+  
+  Swal.fire({
+    position: "top-end",
+    icon: "success",
+    title: btn.name+" : Rs "+btn.price+".00\n"+"Your Order Added Succsfully",
+    showConfirmButton: false,
+    timer: 1500
+  });
+
+  array.push(btn);
+}
+//==============================
+
+if(btn=="B1047"){   
+  btn={
+    name : "Mirinda(330ml)",
+    price :850.00,
+    dom :"2025-03-26",
+    exp :"2025-03-30"
+  }
+  
+  Swal.fire({
+    position: "top-end",
+    icon: "success",
+    title: btn.name+" : Rs "+btn.price+".00\n"+"Your Order Added Succsfully",
+    showConfirmButton: false,
+    timer: 1500
+  });
+
+  array.push(btn);
+}
+
+
+ }
